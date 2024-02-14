@@ -1,7 +1,6 @@
-package com.prudhviraj.singleton.without_multiThreading;
+package com.prudhvi.singleton_design_pattern.without_threads;
 
 import java.util.ArrayList;
-
 public class Client {
 
 	public static void main(String[] args) {

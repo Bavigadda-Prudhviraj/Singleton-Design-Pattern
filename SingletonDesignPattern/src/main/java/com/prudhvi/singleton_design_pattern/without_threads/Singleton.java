@@ -1,5 +1,4 @@
-package com.prudhviraj.singleton.without_multiThreading;
-
+package com.prudhvi.singleton_design_pattern.without_threads;
 
 public class Singleton {
 	//here making the instance variable to static because we are accessing the this instance in the static method 
