@@ -35,5 +35,15 @@ public class Singleton_With_Threadsafe {
         }
         return instance;
     }
+    /*
+    Another way to create getInstance method without taking care of lock
+    because the synchronized will take care of key of object class internally
+     */
+    public static synchronized   Singleton_With_Threadsafe getInstace1(){
+        if(instance == null){
+            instance = new Singleton_With_Threadsafe();
+        }
+        return  instance;
+    }
 }
 

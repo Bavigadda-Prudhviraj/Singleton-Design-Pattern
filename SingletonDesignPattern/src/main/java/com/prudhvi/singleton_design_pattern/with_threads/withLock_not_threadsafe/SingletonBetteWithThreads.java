@@ -6,7 +6,7 @@ public class SingletonBetteWithThreads {
 	public static SingletonBetteWithThreads instance = null;
 	static ReentrantLock lock = new ReentrantLock();
 	private SingletonBetteWithThreads() {}
-	//for multi-threaded environments we are using the lock here to give access to the threads
+	//for multithreaded environments we are using the lock here to give access to the threads
 	public static SingletonBetteWithThreads getInstance() {
 		lock.lock();
 		if(instance == null) {
