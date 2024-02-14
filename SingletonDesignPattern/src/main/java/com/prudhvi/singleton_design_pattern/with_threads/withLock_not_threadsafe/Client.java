@@ -1,4 +1,4 @@
-package com.prudhvi.singleton_design_pattern.with_threads;
+package com.prudhvi.singleton_design_pattern.with_threads.withLock_not_threadsafe;
 
 public class Client {
 
