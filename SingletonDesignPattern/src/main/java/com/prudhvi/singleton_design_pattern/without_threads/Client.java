@@ -6,7 +6,7 @@ public class Client {
 	public static void main(String[] args) {
 		//As we made constructor as private we can access that constructor
 		//so we are using getInstance method to get the instance
-		// if there there is an instance it will create, if instance is there means it will return that directly
+		//if there there is an instance it will create, if instance is there means it will return that directly
 		Singleton singletonObj1 = Singleton.getInstance();
 		Singleton singletonObj2 = Singleton.getInstance();
 		Singleton singletonObj3 = Singleton.getInstance();

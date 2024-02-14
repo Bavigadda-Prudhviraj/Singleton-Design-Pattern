@@ -14,7 +14,7 @@ public class Client {
 		SingletonEagerInitialization instance3 = SingletonEagerInitialization.getInstance();
 		SingletonEagerInitialization instance4 = SingletonEagerInitialization.getInstance();
 		SingletonEagerInitialization instance5 = SingletonEagerInitialization.getInstance();
-		ArrayList<SingletonEagerInitialization> allInstanaces = new ArrayList<>(Arrays.asList(instance1,instance2,instance3,instance4,instance5));
+		ArrayList<SingletonEagerInitialization> allInstanaces = new ArrayList<SingletonEagerInitialization>(Arrays.asList(instance1,instance2,instance3,instance4,instance5));
 		for (SingletonEagerInitialization instances : allInstanaces) {
 			System.out.println(instances);
 			

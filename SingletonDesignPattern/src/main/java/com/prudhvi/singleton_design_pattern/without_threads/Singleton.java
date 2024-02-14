@@ -1,5 +1,7 @@
 package com.prudhvi.singleton_design_pattern.without_threads;
 
+
+
 public class Singleton {
 	//here making the instance variable to static because we are accessing the this instance in the static method 
 	//The static method can access static variables, can't access the local variables.
